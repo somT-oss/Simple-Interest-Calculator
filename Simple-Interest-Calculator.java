@@ -10,14 +10,14 @@ public class Build {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter your principal amount: ");
-        float principal = scanner.nextInt();
+        float principal = scanner.nextFloat();
 
         System.out.print("Enter the time duration of the amount: ");
-        float time = scanner.nextInt();
+        float time = scanner.nextFloat();
         float maineTime = time * 12;
 
         System.out.print("Enter rate: ");
-        float rate = scanner.nextInt();
+        float rate = scanner.nextFloat();
         float mainRate = rate / 100;
 
         float simpleInterest =  principal * mainRate * maineTime / 100;
